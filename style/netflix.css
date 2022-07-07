@@ -1,0 +1,228 @@
+*,
+*:before,
+*:after{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Regular.ttf);
+}
+html, body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    height: 500vh;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.heading__main{
+    height: 97vh;
+    /* background-color: #000; */
+    background-image: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5522584033613445) 35%, rgba(0,0,0,0.9) 100%), url(../image/neflix\ background\ image.jpg);
+    background-size: cover;
+}
+.logo{
+    height: 43px;
+    width: 120px;
+    background-color: transparent;
+    margin-left: 5%;
+    margin-top: 1.5%;
+}
+.topbar a{
+    text-decoration: none;
+}
+.sign{
+    float: right;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* font-weight: bold; */
+    margin-right: 5.47%;
+    margin-top: 2%;
+    border-radius: 5%;
+}
+.main__heading{
+    text-align: center;
+    margin-top: 150px;
+}
+.main__text{
+    font-size: 50px;
+    font-weight: bold;
+}
+.sub__text{
+    font-size: 25px;
+    font-weight: 400;
+    /* margin-top: 1%; */
+}
+.email{
+    margin-top: 2%;
+    /* background-color: #fff; */
+}
+.email a{
+    text-decoration: none;
+}
+#email__text{
+    font-size: 18px;
+    /* f0 */
+    margin-bottom: 8px;
+}
+input{
+    border: none;
+}
+.address{
+    margin-top: 10px;
+    height: 56px;
+    width: 470px;
+    border: none;
+    font-size: 17px;
+    border: 1.4px rgba(128, 128, 128, 0.493) solid;
+    /* display: flex; */
+    /* margin-left: 350px; */
+}
+
+#start{
+    bottom: 15px;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(221, 0, 0);
+    color: #fff;
+    margin-left: -3.5px;
+    border: none;
+    font-size: 26px;
+    padding-top: 7px;
+    padding-bottom: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: width 2s, height 2s;
+}
+#start:hover{
+    background-color: red;
+}
+#start:active{
+    background-color: rgb(221, 0, 0);
+    border: 1px #000 solid;
+    /* transition-duration: 2s; */
+    width: 300px;
+    height: 300px;
+}
+#start::before{
+    background-color: rgb(221, 0, 0);
+    border: 1px #000 solid;
+    width: 300px;
+    height: 300px;
+}
+#start::after{
+    background-color: red;
+}
+hr{
+    background-color: rgb(36, 36, 36);
+    height: 2.3px;
+    border: rgb(36, 36, 36) solid;
+    margin-top: 0px;
+}
+/* .portion__one{
+    text-size-adjust: 5px;
+} */
+.text__one{
+    margin-top: 140px;
+    margin-left: 130px;
+    font-size: 55px;
+    font-weight: bolder;
+    word-spacing: 5px;
+}
+#text__one{
+    margin-left: 130px;
+    margin-top: 15px;
+    font-size: 28px;
+}
+#tv{
+    position: relative;
+    float: right;
+    height: 400px;
+    width: 540px;
+    margin-right: 100px;
+    margin-top: -300px;
+}
+#vid{
+    float: right;
+    margin-left: 634px;
+    height: 255px;
+    width: 393px;
+    margin-right: 176px;
+    margin-top: -343px;
+}
+#hr1{
+    margin-top: 150px;
+}
+#mobile{
+    height: 380px;
+    width: 530px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.text__two{
+    float: right;
+    margin-top: 100px;
+    margin-right: 150px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+#text__two{
+    float: right;
+    margin-right: 150px;
+    margin-top: -170px;
+    font-size: 28px;
+}
+#hr2{
+    margin-top: 50px;
+}
+.text__three{
+    margin-top: 50px;
+    margin-left: 130px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+#text__three{
+    margin-top: 10px;
+    margin-left: 130px;
+    font-size: 28px;
+}
+#hr3{
+    margin-top: 50px;
+}
+#kids{
+    height: 380px;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.text__four{
+    float: right;
+    margin-top: 120px;
+    margin-right: 220px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+#text__four{
+    float: right;
+    margin-right: 130px;
+    margin-top: -170px;
+    font-size: 25px;
+}
+#h4{
+    margin-top: 60px;
+}
+.questions ul{
+    display: flex;
+    list-style: none;
+}
+.faq__questions .svg-closed{
+    transform: translateY(-50%) rotate(-45deg);
+}
+
